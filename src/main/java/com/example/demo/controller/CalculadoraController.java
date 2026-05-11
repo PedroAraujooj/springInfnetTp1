@@ -1,10 +1,10 @@
-package controller;
+package com.example.demo.controller;
 
 
-import dto.ResultadoOperacaoDTO;
+import com.example.demo.dto.ResultadoOperacaoDTO;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import service.CalculadoraService;
+import com.example.demo.service.CalculadoraService;
 
 @RestController
 @RequestMapping("/api/calculadora")

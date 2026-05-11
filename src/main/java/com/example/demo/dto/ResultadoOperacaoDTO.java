@@ -1,4 +1,4 @@
-package dto;
+package com.example.demo.dto;
 
 public record ResultadoOperacaoDTO(
         String operacao,
